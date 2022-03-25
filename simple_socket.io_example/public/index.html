@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSockets Example</title>
+        <style>
+            li {
+                line-height: 18px;
+                font-size: 16px !important;
+            }
+            .red {
+                color: red;
+            }
+            .green {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Chat App</h1>
+        <button id="send-location">Send location to server</button>
+
+        <h2>Status: <span id="status">Disconnected</span></h2>
+        <h2>Messages:</h2>
+        <ul id="messages"></ul>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/chat.js"></script>
+    </body>
+</html>
