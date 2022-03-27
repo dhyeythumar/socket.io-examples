@@ -1,5 +1,5 @@
 {
-    "name": "simple_socket.io_example",
+    "name": "basic-socket.io-example",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
